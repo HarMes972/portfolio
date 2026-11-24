@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "name": "Md. Sakib Hossain",
+    "shortName": "MSH",
+    "role": "Full Stack Web Developer · CSE Undergraduate",
+    "available": true,
+    "availableText": "Available for opportunities",
+    "location": "Bangladesh",
+    "heroTitle": "Building the web, one solution at a time.",
+    "heroSub": "I design, develop, test, and deploy complete digital products.",
+    "photo": "sakib-hossain.jpg",
+    "aboutTitle": "I turn ideas into scalable, real-world web solutions.",
+    "about": "I am a motivated Computer Science and Engineering student with hands-on experience in complete Full Stack development. From frontend and backend to REST APIs, databases, quality assurance, and deployment, I take ownership of the whole product journey.",
+    "educationDegree": "Undergraduate in Computer Science & Engineering",
+    "educationNote": "Expected graduation: December 2026"
+  },
+  "expertise": [
+    { "title": "Frontend Development", "items": "HTML5, CSS3, JavaScript, Responsive Web Design" },
+    { "title": "Backend & APIs", "items": "PHP, REST API Development, Java" },
+    { "title": "Database & Tools", "items": "MySQL, Git, GitHub, Visual Studio Code" },
+    { "title": "Quality & Security", "items": "SQA, Deployment, Basic Cybersecurity Knowledge" }
+  ],
+  "softSkills": "Leadership, Teamwork, Communication, Problem Solving, Time Management, Adaptability, Quick Learner",
+  "projects": [
+    {
+      "title": "Lillcorp",
+      "category": "E-commerce platform",
+      "description": "A complete online store, designed, developed, tested, and deployed independently.",
+      "url": "https://lillcorp.com",
+      "image": "",
+      "tags": "PHP, MySQL, JavaScript"
+    },
+    {
+      "title": "Probashir Hotel",
+      "category": "Hotel website",
+      "description": "A booking-ready hotel website with a clean, responsive experience.",
+      "url": "https://probashirhotel.com",
+      "image": "",
+      "tags": "HTML, CSS, JavaScript"
+    }
+  ],
+  "contact": {
+    "email": "sakibhossain0972@gmail.com",
+    "phone": "+880 1613 580952",
+    "facebook": "https://www.facebook.com/Harmes972",
+    "linkedin": "https://www.linkedin.com/in/md-sakib-hossain-27621a401/",
+    "github": "https://github.com/HarMes972"
+  }
+}

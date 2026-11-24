@@ -1,8 +1,76 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Md. Sakib Hossain — Full Stack Web Developer"><title>Md. Sakib Hossain | Full Stack Developer</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"></head><body>
-<header><a class="logo" href="#home">MSH<span>.</span></a><nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a></nav><a class="talk" href="#contact">LET'S TALK ↗</a></header>
-<main id="home"><section class="hero"><p class="availability">● AVAILABLE FOR OPPORTUNITIES</p><div class="hero-grid"><div><p class="lime mono">FULL STACK WEB DEVELOPER · CSE UNDERGRADUATE</p><h1>Building the web,<br><strong>one solution</strong><br>at a time.</h1><p class="intro">I’m <b>Md. Sakib Hossain</b>, a Full Stack Web Developer who designs, develops, tests, and deploys complete digital products.</p><a class="button" href="#projects">VIEW MY WORK ↓</a></div><figure><img src="sakib-hossain.jpg" alt="Md. Sakib Hossain"><figcaption>BASED IN<br>BANGLADESH</figcaption></figure></div></section>
-<section class="statement" id="about"><span class="mono lime">01 / ABOUT ME</span><h2>I turn ideas into <em>scalable, real-world</em> web solutions.</h2></section>
-<section class="about"><p>I am a motivated Computer Science and Engineering student with hands-on experience in complete Full Stack development. From frontend and backend to REST APIs, databases, quality assurance, and deployment—I take ownership of the whole product journey.</p><aside><span class="mono">EDUCATION</span><b>Undergraduate in Computer Science & Engineering</b><small>Expected graduation · December 2026</small></aside></section>
-<section class="skills" id="skills"><p class="mono lime">02 / EXPERTISE</p><h2>What I bring<br>to the table.</h2><div class="skill-list"><article><span>01</span><b>Frontend Development</b><p>HTML5, CSS3, JavaScript, Responsive Web Design</p></article><article><span>02</span><b>Backend & APIs</b><p>PHP, REST API Development, Java</p></article><article><span>03</span><b>Database & Tools</b><p>MySQL, Git, GitHub, Visual Studio Code</p></article><article><span>04</span><b>Quality & Security</b><p>SQA, Deployment, Basic Cybersecurity Knowledge</p></article></div><p class="soft"><small class="mono">SOFT SKILLS</small><br>Leadership ✦ Teamwork ✦ Communication ✦ Problem Solving ✦ Time Management ✦ Adaptability ✦ Quick Learner</p></section>
-<section class="projects" id="projects"><p class="mono lime">03 / FEATURED WORK</p><h2>Live projects,<br>built end to end.</h2><p class="project-intro">Designed, developed, tested, and deployed independently.</p><div class="cards"><article class="card"><div class="preview commerce"><small>WELCOME TO LILLCORP</small><b>Everything you<br>need, in one place.</b><i>●　●　●</i></div><div class="card-footer"><div><small>E-COMMERCE PLATFORM</small><h3>Lillcorp</h3></div><a href="https://lillcorp.com" target="_blank" rel="noopener">VISIT LIVE SITE ↗</a></div></article><article class="card"><div class="preview hotel"><small>PROBASHIR HOTEL</small><b>Your stay,<br>our care.</b><i>BOOK YOUR STAY →</i></div><div class="card-footer"><div><small>HOTEL WEBSITE</small><h3>Probashir Hotel</h3></div><a href="https://probashirhotel.com" target="_blank" rel="noopener">VISIT LIVE SITE ↗</a></div></article></div></section>
-<section class="contact" id="contact"><p class="mono lime">04 / GET IN TOUCH</p><h2>Have an idea?<br><em>Let’s build it.</em></h2><a class="email" href="mailto:sakibhossain0972@gmail.com">sakibhossain0972@gmail.com ↗</a><div><a href="tel:+8801613580952">+880 1613 580952</a><a href="https://www.facebook.com/Harmes972" target="_blank" rel="noopener">Facebook ↗</a><a href="https://www.linkedin.com/in/md-sakib-hossain-27621a401/" target="_blank" rel="noopener">LinkedIn ↗</a></div></section></main><footer>© 2026 MD. SAKIB HOSSAIN <span>FULL STACK WEB DEVELOPER</span></footer><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Md. Sakib Hossain | Full Stack Developer</title>
+<meta name="description" content="Md. Sakib Hossain, Full Stack Web Developer from Bangladesh.">
+<meta property="og:title" content="Md. Sakib Hossain | Full Stack Developer">
+<meta property="og:description" content="Full Stack Web Developer. Live projects built end to end.">
+<meta property="og:image" content="sakib-hossain.jpg">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232f5bff'/><text x='50' y='66' font-size='48' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'>S</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+
+<header class="nav" id="nav">
+  <a href="#home" class="logo" id="logo">MSH.</a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact" class="pill">Let's talk</a>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p class="status" id="status"><span class="dot"></span><span id="statusText"></span></p>
+      <h1 id="heroTitle" aria-label=""></h1>
+      <p class="typed-line"><span id="typed"></span><span class="caret"></span></p>
+      <p class="hero-sub" id="heroSub"></p>
+      <a href="#projects" class="btn">View my work</a>
+    </div>
+    <figure class="hero-photo">
+      <img id="photo" alt="Portrait">
+      <figcaption id="location"></figcaption>
+    </figure>
+  </section>
+
+  <div class="marquee" aria-hidden="true"><div class="track" id="marquee"></div></div>
+
+  <section id="about" class="section about">
+    <h2 id="aboutTitle"></h2>
+    <div>
+      <p id="aboutText"></p>
+      <div class="edu"><strong id="eduDegree"></strong><span id="eduNote"></span></div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2 class="sec-title">What I bring to the table</h2>
+    <div class="skill-grid" id="skillGrid"></div>
+    <div class="soft" id="soft"></div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2 class="sec-title">Live projects, built end to end</h2>
+    <div class="project-grid" id="projectGrid"></div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Have an idea? Let's build it.</h2>
+    <a class="mail" id="mail" href="#"></a>
+    <div class="links" id="links"></div>
+  </section>
+</main>
+
+<footer id="footer"></footer>
+<script src="script.js"></script>
+</body>
+</html>

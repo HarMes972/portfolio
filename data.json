@@ -15,10 +15,22 @@
     "educationNote": "Expected graduation: December 2026"
   },
   "expertise": [
-    { "title": "Frontend Development", "items": "HTML5, CSS3, JavaScript, Responsive Web Design" },
-    { "title": "Backend & APIs", "items": "PHP, REST API Development, Java" },
-    { "title": "Database & Tools", "items": "MySQL, Git, GitHub, Visual Studio Code" },
-    { "title": "Quality & Security", "items": "SQA, Deployment, Basic Cybersecurity Knowledge" }
+    {
+      "title": "Frontend Development",
+      "items": "HTML5, CSS3, JavaScript, Responsive Web Design"
+    },
+    {
+      "title": "Backend & APIs",
+      "items": "PHP, REST API Development, Java"
+    },
+    {
+      "title": "Database & Tools",
+      "items": "MySQL, Git, GitHub, Visual Studio Code"
+    },
+    {
+      "title": "Quality & Security",
+      "items": "SQA, Deployment, Basic Cybersecurity Knowledge"
+    }
   ],
   "softSkills": "Leadership, Teamwork, Communication, Problem Solving, Time Management, Adaptability, Quick Learner",
   "projects": [

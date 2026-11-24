@@ -54,10 +54,6 @@ function render(d) {
   const soft = $('#soft'); soft.textContent = '';
   list(d.softSkills).forEach(s => soft.append(h('span', { class: 'chip reveal', text: s })));
 
-  // marquee
-  const all = d.expertise.flatMap(x => list(x.items));
-  const m = $('#marquee'); m.textContent = '';
-  [...all, ...all].forEach(t => m.append(h('span', { text: t })));
 
   // projects
   const pg = $('#projectGrid'); pg.textContent = '';

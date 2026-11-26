@@ -39,7 +39,7 @@
       "category": "E-commerce platform",
       "description": "A complete online store, designed, developed, tested, and deployed independently.",
       "url": "https://lillcorp.com",
-      "image": "",
+      "image": "images/1795704217027-Screenshot_2026-11-26_204252.jpg",
       "tags": "PHP, MySQL, JavaScript"
     },
     {
@@ -47,7 +47,7 @@
       "category": "Hotel website",
       "description": "A booking-ready hotel website with a clean, responsive experience.",
       "url": "https://probashirhotel.com",
-      "image": "",
+      "image": "images/1795704257218-Screenshot_2026-11-26_204404.jpg",
       "tags": "HTML, CSS, JavaScript"
     }
   ],
